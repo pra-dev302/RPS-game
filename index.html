@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor-Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Rock - Paper - Scissor - Game</h1>
+    <hr>
+    <!-- for images -->
+    <div class="images">
+        <div class="img">
+            <img src="rock.jpeg" onclick= "rock()" id="rock" class="jpg" alt="rock image">
+            <h2>Rock</h2>
+        </div>
+        <div class="img">
+            <img src="paper.jpg" onclick= "paper()" id="paper" class="jpg" alt="paper image">
+            <h2>Paper</h2>
+        </div>
+        <div class="img">
+            <img src="scissor.jpg" onclick= "scissor()" id="scissor" class="jpg" alt="scissor image">
+            <h2>Scissor</h2>
+        </div>
+    </div> 
+    <!-- for scores -->
+    <div class="scores">
+        <div class="user-score">
+            <h1 id="plyr">Player Score : <p id="user-num">0</p></h1>
+        </div>
+        <div class="comp-score">
+            <h1 id="comp">Computer Score : <p id="comp-num">0</p></h1>
+        </div>
+    </div> 
+    <!-- for msg -->
+    <div class="msg"></div>
+    <div class="btn"></div>
+    <script src="script.js"></script>
+</body>
+</html>

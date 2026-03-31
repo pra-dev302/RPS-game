@@ -1,0 +1,78 @@
+*{
+    margin : 0;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+body{
+    background-color: #A8C256;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 1.5rem;
+    text-shadow: 2px 2px 4px whitesmoke;
+    font-size: xxx-large;
+}
+
+hr{
+    margin: 1rem 5rem;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+h2{
+    text-align: center;
+    margin-top: 1.5rem;
+    text-shadow: 2px 2px 4px white;
+}
+
+#plyr, #comp{
+    text-shadow: 2px 2px 4px white; 
+    display: flex;
+    gap: 1rem;
+}
+
+#rock, #paper, #scissor{
+    height:150px;
+    width:150px;
+    border-radius: 7rem;
+    box-shadow: 2px 2px 14px black;
+}
+.jpg:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px red !important;
+}
+.scores{
+    display: flex;
+    justify-content: space-around;
+   
+    margin-top: 3rem;
+}
+.msg{
+    height:5rem;
+    width:100%;
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px white; 
+    font-family:Georgia, serif;
+}
+.btn{
+    height: 3rem;
+    width:100%;
+    text-align: center;
+    margin-top: -1rem;
+}
+#btnRt{
+    height:3rem;
+    width:8rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px white; 
+    font-family:Georgia, serif;
+    background-color: #86a12d;
+    border-radius: 2rem;
+}
